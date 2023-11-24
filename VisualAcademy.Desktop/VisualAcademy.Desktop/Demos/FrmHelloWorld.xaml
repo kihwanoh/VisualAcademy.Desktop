@@ -1,0 +1,21 @@
+﻿<Window
+    x:Class="VisualAcademy.Desktop.Demos.FrmHelloWorld"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:VisualAcademy.Desktop.Demos"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="FrmHelloWorld"
+    Width="719"
+    Height="407"
+    FontFamily="Consolas"
+    mc:Ignorable="d">
+    <StackPanel>
+        <TextBox x:Name="txtDisplay" Margin="5" />
+        <Button
+            x:Name="btnClick"
+            Margin="5"
+            Click="btnClick_Click"
+            Content="Click" />
+    </StackPanel>
+</Window>
