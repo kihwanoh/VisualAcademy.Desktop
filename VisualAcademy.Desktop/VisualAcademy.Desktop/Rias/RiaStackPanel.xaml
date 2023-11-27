@@ -1,0 +1,27 @@
+﻿<Window x:Class="VisualAcademy.Desktop.Rias.RiaStackPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisualAcademy.Desktop.Rias"
+        mc:Ignorable="d"
+        Title="RiaStackPanel" Height="450" Width="800" d:DesignHeight="300" d:DesignWidth="400">
+    <Grid x:Name="LayoutRoot" Background="White">
+
+        <StackPanel>
+            <StackPanel Margin="5">
+                <Button Content="안녕하세요."></Button>
+                <Button Content="반갑습니다."></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <Button Content="또 만나요."></Button>
+                <Button Content="낼 봐요."></Button>
+            </StackPanel>
+            <StackPanel Margin="20,10,5,0" Background="Yellow">
+                <Button Content="패내마외" Height="100" HorizontalAlignment="Left"
+                        Margin="5" Padding="20"></Button>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>

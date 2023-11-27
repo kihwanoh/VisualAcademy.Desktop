@@ -1,0 +1,53 @@
+﻿<Window x:Class="VisualAcademy.Desktop.Rias.FrmDockPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VisualAcademy.Desktop.Rias"
+        mc:Ignorable="d"
+        Title="FrmDockPanel" Height="450" Width="800">
+    <Grid x:Name="LayoutRoot" Background="White">
+
+        <DockPanel LastChildFill="False">
+            <Button DockPanel.Dock="Left" Background="LightBlue" Content="#1" />
+            <Button DockPanel.Dock="Top" Background="LightCoral" Content="#2" />
+            <Button DockPanel.Dock="Right" Background="LightGreen" Content="#3" />
+            <Button DockPanel.Dock="Bottom" Background="LightYellow" Content="#4" />
+
+            <Button DockPanel.Dock="Left" Background="LightGreen" Content="#5" />
+            <Button DockPanel.Dock="Top" Background="LightYellow" Content="#6" />
+            <Button DockPanel.Dock="Right" Background="LightBlue" Content="#7" />
+            <Button DockPanel.Dock="Bottom" Background="LightCoral" Content="#8" />
+
+            <Button DockPanel.Dock="Left" Background="LightGray" Content="#9" />
+            <Button DockPanel.Dock="Top" Background="LightCoral" Content="#10" />
+            <Button DockPanel.Dock="Right" Background="LightGreen" Content="#11" />
+            <Button DockPanel.Dock="Bottom" Background="LightBlue" Content="#12" />
+
+            <Button DockPanel.Dock="Left" Background="LightCoral" Content="#13" />
+
+            <Button DockPanel.Dock="Top" Background="LightGoldenrodYellow" Content="#14" />
+
+            <Button DockPanel.Dock="Right" Background="LightYellow" Content="#15" />
+
+            <Button DockPanel.Dock="Bottom" Background="LightGreen" Content="#16" />
+
+            <Button DockPanel.Dock="Left" Background="LightYellow" Content="#17" />
+
+            <Button DockPanel.Dock="Top" Background="LightCoral" Content="#18" />
+
+            <Button DockPanel.Dock="Right" Background="LightBlue" Content="#19" />
+
+            <Button DockPanel.Dock="Bottom" Background="LightGreen" Content="#20" />
+
+            <Button DockPanel.Dock="Left" Background="LightBlue" Content="#21" />
+
+            <Button DockPanel.Dock="Top" Background="LightGreen" Content="#22" />
+
+            <Button DockPanel.Dock="Right" Background="LightCoral" Content="#23" />
+
+            <Button DockPanel.Dock="Bottom" Background="LightYellow" Content="#24" />
+
+        </DockPanel>
+    </Grid>
+</Window>
