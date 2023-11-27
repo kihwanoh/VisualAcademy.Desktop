@@ -6,8 +6,8 @@
     xmlns:local="clr-namespace:VisualAcademy.Desktop.Demos"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     Title="FrmHelloWorld"
-    Width="527"
-    Height="310"
+    Width="719"
+    Height="407"
     FontFamily="Consolas"
     mc:Ignorable="d">
     <StackPanel>
